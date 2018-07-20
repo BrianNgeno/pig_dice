@@ -1,4 +1,4 @@
-#main-body {
+#main-head {
   background-image: url(../images/dice.jpg);
   color: white;
   text-align: center;
@@ -8,4 +8,11 @@
 }
 ul{
   list-style: none;
+}
+#input-one{
+  margin-top: 15%
+}
+#lets-play{
+  background-color: white;
+  color: black;
 }
