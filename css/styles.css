@@ -8,27 +8,62 @@
   background-repeat: no-repeat;
   background-color: black;
 }
-ul{
+
+ul {
   list-style: none;
 }
-#input-one{
+
+#input-one {
   margin-top: 15%;
   color: black;
 }
-#lets-play{
+
+#lets-play {
   background-color: white;
   color: black;
 }
-#player{
+
+#player {
   margin-top: 10%;
-  color:white;
+  color: white;
 }
-#player1name{
-  color:white;
+
+#player1name {
+  color: white;
 }
-#player2name{
-  color:white;
+
+#player2name {
+  color: white;
 }
-h3{
-  color:white;
+
+h3 {
+  color: white;
+}
+
+#roll1 {
+  background-color: #00cccc;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+#roll2 {
+  background-color: #00cccc;'
+  padding-right: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+#hold1 {
+  background-color: #0073e6;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+#hold2 {
+  background-color: #0073e6;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  text-align: center;
 }
