@@ -1,0 +1,8 @@
+#main-body {
+  background-image: url(../images/dice.jpg);
+  color: white;
+  text-align: center;
+  padding-bottom: 50%;
+  background-size: 1400px 700px;
+  font-family: 'Fredericka the Great', cursive;
+}
