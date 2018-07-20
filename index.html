@@ -25,13 +25,30 @@
       <h3>Lets Play!!!!</h3>
       <form action="/action_page.php" id="input-one">
         Player One
-        <input type="text" name="player-one" value="Player 1" id="input-line1">
-        Player Two
+        <input type="text" name="player-one" value="Player 1" id="input-line1"> Player Two
         <input type="text" name="player-two" value="Player 2" id="input-line2">
 
         <input type="submit" value="Lets Play" id="lets-play">
       </form>
+      <div class="container players">
+        <div class="row">
+          <div class="col-md-4">
+            <h1 id="pl1name"></h1>
+            <h2>score <span id="pl1score"></span></h2>
+            <h2>Total <span id="pl1total"></span></h2>
+          </div>
+          <div class="col-md-4">
+            <button class="button btn-success roll">Roll</button>
+            <button class="button btn-danger hold">Hold</button></div>
+          <div class="col-md-4">
+            <h1 id="pl2name"></h1>
+            <h2>score <span id="pl2score"></span></h2>
+            <h2>Total <span id="pl2total"></span></h2>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
   </div>
 
 </body>
