@@ -26,5 +26,7 @@ $(document).ready(function(){
   $("#lets-play").click(function(event){
     $("#input-one").hide();
     event.preventDefault();
+  var player1name=  $("input#inputed-line1").val();
+    $("#player1name").text(player1name);
   });
 });

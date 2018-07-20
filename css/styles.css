@@ -6,14 +6,28 @@
   background-size: 1400px 700px;
   font-family: 'Fredericka the Great', cursive;
   background-repeat: no-repeat;
+  background-color: black;
 }
 ul{
   list-style: none;
 }
 #input-one{
-  margin-top: 15%
+  margin-top: 15%;
+  color: black;
 }
 #lets-play{
   background-color: white;
   color: black;
+}
+#player{
+  margin-top: 10%;
+}
+#player1name{
+  color:white;
+}
+#player2name{
+  color:white;
+}
+h3{
+  color:white;
 }
