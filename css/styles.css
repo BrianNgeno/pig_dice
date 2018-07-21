@@ -26,6 +26,7 @@ ul {
 #player {
   margin-top: 10%;
   color: white;
+  display: none;
 }
 
 #player1name {
