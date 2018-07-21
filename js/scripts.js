@@ -20,15 +20,13 @@ Player.prototype.switch = function() {
 Player.prototype.reset = function() {
   this.score = 0
   this.totalroll = 0
-};
-var score = function(){
-  score+ newscore
-};
 
+};
 $(document).ready(function() {
   $("#lets-play").click(function(event) {
     $("#input-one").hide();
     event.preventDefault();
+    var totalroll=roll+score;
     var player1name = $("input#inputed-line1").val();
     $("#player1name").text(player1name);
     var player2name = $("input#inputed-line2").val();
@@ -36,11 +34,17 @@ $(document).ready(function() {
 
 
     $("#roll1").click(function() {
+      if(roll===1){
+        totalsroll.reset
+      }else if(roll>1){
+      $("#player1score").text(totalroll);  
+      }
 
-      $("#player1score").text(roll);
+
     });
     $("#roll2").click(function(){
       $("#player2score").text(roll);
+
     })
   });
 });
