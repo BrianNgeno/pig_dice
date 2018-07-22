@@ -49,10 +49,11 @@ h3 {
 }
 
 #roll2 {
-  background-color: #00cccc;'
+  background-color: #00cccc;
   padding-right: 5%;
   padding-bottom: 5%;
   text-align: center;
+  display:none;
 }
 
 #hold1 {
