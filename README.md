@@ -31,7 +31,7 @@ bkn.ngeno@gmail.com.
 
 
 ## Authors
-* **BrianNg'eno** -  [Brian-Ng'eno]()
+* **BrianNg'eno** -  [Brian-Ng'eno](https://github.com/BrianNgeno/pig_dice)
 
 
 ## License
